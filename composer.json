@@ -1,0 +1,29 @@
+{
+  "name": "aurelijussaldauskas/currency-exchange-rates",
+  "type": "library",
+  "require": {
+    "php": "^7.2",
+    "illuminate/support": "^6.0|^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aurelijus Saldauskas",
+      "email": "aurelijus.saldauskas@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "aurelijussaldauskas\\currency-exchange-rates\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "aurelijussaldauskas\\currency-exchange-rates\\CurrencyRateServiceProvider"
+      ]
+    }
+  }
+}
